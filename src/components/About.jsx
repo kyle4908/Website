@@ -3,7 +3,7 @@ import me from "../assets/Kyle_D'Souza.jpg"
 
 const About = () => {
     return (
-        <div className='w-full h-auto md:h-screen bg-sky-200 dark:bg-dark-back flex flex-col'>
+        <div className='w-full h-auto md:h-full bg-sky-200 dark:bg-dark-back flex flex-col'>
             <div className='flex flex-col justify-center mt-40 items-center'>
                 <div className='flex justify-center items-center flex-wrap'>
                     <div className='flex text-2xl p-2 text-center flex-wrap w-7/12'>
