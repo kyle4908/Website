@@ -3,9 +3,9 @@ import me from "../assets/Kyle_D'Souza.jpg"
 
 const About = () => {
     return (
-        <div className='w-full h-auto xl:h-screen bg-sky-200 dark:bg-dark-back flex flex-col'>
+        <div className='w-full h-screen bg-sky-200 dark:bg-dark-back flex flex-col'>
             <div className='flex flex-col justify-center mt-40 items-center'>
-                <div className='flex justify-center items-center flex-wrap bg-sky-200 dark:bg-dark-back'>
+                <div className='flex justify-center items-center flex-wrap w-full bg-sky-200 dark:bg-dark-back'>
                     <div className='flex text-2xl p-2 text-center flex-wrap w-7/12'>
                         <p>
                             {"My name is Kyle D'Souza. I am a third year software engineering student at McMaster University. You can reach out to me by my email, dsouzk8@mcmaster.ca, or on "} 
@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className='flex flex-col justify-center w-full items-center bg-sky-200 dark:bg-dark-back'>
                     <div className='text-4xl font-bold pb-6'>Hobbies/Interests:</div>
-                    <div className='flex justify-center items.center flex-wrap space-x-5'>
+                    <div className='flex justify-center items.center flex-wrap'>
                         <div className='flex justify-center items-center flex-col'>
                             <svg className='stroke-black dark:stroke-white h-40' viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M25 2C12.299 2 2 12.298 2 25s10.299 23 23 23 23-10.298 23-23S37.701 2 25 2h0z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m18.71 34.719-3.909-12.062 10.225-7.454 10.227 7.454-3.905 12.062zM33.738 3.788l-8.712 3.717-8.71-3.717M7.646 10.106l.837 9.463-6.22 7.16M5.576 36.957l9.227 2.125 4.869 8.146M30.388 47.228l4.865-8.15 9.224-2.125M47.793 26.727l-6.225-7.164.836-9.457M25.026 7.505v7.698M35.253 22.956l6.315-3.393M31.348 34.719l3.905 4.359M18.71 34.719l-3.907 4.363M8.483 19.569l6.318 3.088"/>
