@@ -6,7 +6,7 @@ const About = () => {
         <div className='w-full h-screen bg-sky-200 dark:bg-dark-back flex flex-col'>
             <div className='flex flex-col justify-center mt-40 items-center'>
                 <div className='flex justify-center items-center flex-wrap w-full bg-sky-200 dark:bg-dark-back'>
-                    <div className='flex text-2xl p-2 text-center flex-wrap w-7/12'>
+                    <div className='flex text-2xl p-2 text-center flex-wrap items-center justify-center w-7/12'>
                         <p>
                             {"My name is Kyle D'Souza. I am a third year software engineering student at McMaster University. You can reach out to me by my email, dsouzk8@mcmaster.ca, or on "} 
                             <a rel='noreferrer' href='https://www.linkedin.com/in/kyle-d-souza-0036891b8/' target="_blank" className='underline hover:font-bold'>{"Linkedin"}</a>.
