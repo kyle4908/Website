@@ -16,11 +16,6 @@ const Home = () => {
                 </div>
                 
             </div>
-            {/*<div className="flex justify-center h-60 flex-col space-y-1 text-center text-2xl">
-                <p className='font-bold pb-2'>My Links:</p>
-                <a href='https://github.com/kyle4908' target='blank_'>GitHub</a>
-                <a href='https://www.linkedin.com/in/kyle-d-souza-0036891b8/' target='blank_'>LinkedIn</a>
-            </div>*/}
         </div>
     )
 }
