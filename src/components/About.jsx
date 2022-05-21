@@ -3,9 +3,9 @@ import me from "../assets/Kyle_D'Souza.jpg"
 
 const About = () => {
     return (
-        <div className='w-full h-auto md:h-full bg-sky-200 dark:bg-dark-back flex flex-col'>
+        <div className='w-full h-auto xl:h-screen bg-sky-200 dark:bg-dark-back flex flex-col'>
             <div className='flex flex-col justify-center mt-40 items-center'>
-                <div className='flex justify-center items-center flex-wrap'>
+                <div className='flex justify-center items-center flex-wrap bg-sky-200 dark:bg-dark-back'>
                     <div className='flex text-2xl p-2 text-center flex-wrap w-7/12'>
                         <p>
                             {"My name is Kyle D'Souza. I am a third year software engineering student at McMaster University. You can reach out to me by my email, dsouzk8@mcmaster.ca, or on "} 
@@ -14,7 +14,7 @@ const About = () => {
                     </div>
                     <img className='h-72 p-2 rounded-3xl' src={me} alt="me"/>
                 </div>
-                <div className='flex flex-col justify-center items-center bg-sky-200 dark:bg-dark-back'>
+                <div className='flex flex-col justify-center w-full items-center bg-sky-200 dark:bg-dark-back'>
                     <div className='text-4xl font-bold pb-6'>Hobbies/Interests:</div>
                     <div className='flex justify-center items.center flex-wrap space-x-5'>
                         <div className='flex justify-center items-center flex-col'>
