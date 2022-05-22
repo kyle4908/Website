@@ -1,4 +1,5 @@
 import React from 'react'
+import { SiNetlify, SiScikitlearn } from "react-icons/si";
 
 const Skills = () => {
     return (
@@ -87,17 +88,12 @@ const Skills = () => {
                         </svg>
                         <div className='text-base'>Pygame</div>
                     </div>
-                    <div className='flex justify-center items-center flex-col'>
-                        <svg className='fill-black dark:fill-white h-20 w-28 mt-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230">
-                            <path d="M333 347c34-34 40-83 13-110s-76-21-110 13-24 98-13 110c10 9 76 21 110-13z" transform="translate(-121 -220)"/>
-                            <path d="M194 298c-19-19-48-23-64-7-15 16-12 44 8 64 19 20 57 14 64 7 5-5 12-44-8-64z" transform="translate(-121 -220)"/>
-                            <path d="M262 339c-3 3-6 6-9 7-3 2-5 2-7 2-3 0-5-1-7-3s-3-5-3-8c0-6 2-12 4-20l8-20 10-4h1l2 1v5l-3 15c-3 5-6 10-12 16v5l1 5c1 2 2 2 4 2l4-1 7-6v4zm-15-15c4-4 6-8 8-12l3-12v-2l-1-1-4 7-6 20zM291 339c-3 3-6 6-9 7-3 2-5 2-8 2-4 0-7-1-9-3s-3-5-3-9c0-5 2-10 6-14 3-5 7-7 12-7l6 2 2 5c0 5-6 9-17 13 1 5 4 7 8 7l5-1 7-6v4zm-20-7c6-2 10-5 10-10 0-3-1-4-3-4s-3 1-5 4-2 6-2 10z" transform="translate(-121 -220)"/>
-                            <path d="m332 339-9 8-5 1c-4 0-6-3-6-10l-7 8c-2 2-4 2-7 2-2 0-4-1-5-3-2-2-3-4-3-8 0-3 1-7 3-10 3-4 5-7 9-9l8-3c4 0 6 1 7 4l8-4h2l-3 11-3 12c0 2 1 3 2 3l4-2 5-4v4zm-28 2c2 0 5-2 7-6l3-12-1-4-2-1c-3 0-5 2-8 7l-3 12 1 3 3 1z"  transform="translate(-121 -220)"/>
-                        </svg>
-                        <div className='text-base'>Scikit-Learn</div>
+                    <div className='flex justify-center items-center flex-col'> 
+                        <SiScikitlearn className='mt-4 mb-4 w-24' size={72}/> 
+                        <div className='text-base'>Scikit-learn</div> 
                     </div>
                     <div className='flex justify-center items-center flex-col'>
-                        <svg className='stroke-black dark:stroke-white fill-black dark:fill-white h-20 w-28 mt-6' xmlns="http://www.w3.org/2000/svg" stroke="gray" viewBox="0 0 180 200">
+                        <svg className='stroke-black dark:stroke-white fill-black dark:fill-white h-20 w-24 mt-6' xmlns="http://www.w3.org/2000/svg" stroke="gray" viewBox="0 0 180 200">
                             <g stroke-width="2" fill-opacity="0">
                                 <circle cx="90" cy="90" r="88"/><circle cx="90" cy="90" r="66"/>
                                 <circle cx="90" cy="90" r="44"/><circle cx="90" cy="90" r="22"/>
@@ -149,6 +145,10 @@ const Skills = () => {
                     <div className='flex justify-center items-center flex-col'>
                         <i className='devicon-raspberrypi-line'></i>
                         <div className='text-base'>Raspberry Pi</div>
+                    </div>
+                    <div className='flex justify-center items-center flex-col'> 
+                        <SiNetlify className='mt-4 mb-4 w-24' size={72}/> 
+                        <div className='text-base'>Netlify</div> 
                     </div>
                 </div>
             </div>
